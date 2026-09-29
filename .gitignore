@@ -1,0 +1,32 @@
+# Environments
+.venv/
+qai_env/
+env/
+venv/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large Model weights & downloads (>100MB)
+scratch/downloaded_models/
+backend/models/
+*.bin
+*.onnx
+*.zip
+*.tar.gz
+
+# Temporary artifacts
+export_assets/
+*.tmp
+.qai_hub/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

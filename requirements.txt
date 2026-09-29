@@ -1,0 +1,16 @@
+# StudyPilot Dependencies (Pinned for local CPU execution & hackathon demo)
+
+# --- Core UI & Utilities ---
+gradio==6.27.0
+scikit-learn==1.9.0
+fpdf2==2.8.8
+pytesseract==0.3.13
+pillow==12.3.0
+
+# --- Real ASR Backend (CPU baseline) ---
+faster-whisper==1.2.1
+
+# --- Real LLM Summarizer & RAG Q&A ---
+transformers==5.15.0
+accelerate==1.15.0
+torch==2.13.0
